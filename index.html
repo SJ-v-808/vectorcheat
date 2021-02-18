@@ -7,6 +7,7 @@
     <title>cheat kit</title>
 </head>
 <body>
+<p id="demo"> hello world</p>
 
 <h1>vectors</h1>
 <h4>What is vector ?</h4>
@@ -36,7 +37,7 @@ Ducksburg</textarea>
 <script>
 function myFunction(){
 var output = document.getElementById("myTextarea").value ;
-document.write(output);
+document.getElementById("demo").innerHTML = output;
 }
 </script>
 <h4>stonk market</h4>
